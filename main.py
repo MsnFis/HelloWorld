@@ -7,11 +7,11 @@ for i in range(numround):
     if i == 0:
         print("Start")
     elif i % 3 == 0 and i % 5 == 0:
-        print(oneword + twoword)
+        print(i, oneword + twoword)
     elif i % 3 == 0:
-        print(oneword)
+        print(i, oneword)
     elif i % 5 == 0:
-        print(twoword)
+        print(i, twoword)
     else:
         print(i)
 print("End")
