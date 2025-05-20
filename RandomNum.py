@@ -13,9 +13,11 @@ while True:
         NumRound += 1
         print("Правильно ", num, ",за ", NumRound, " попыток")
         break
-    elif num >= RandNum:
+    elif num > RandNum:
         print("Меньше")
         NumRound += 1
-    elif num <= RandNum:
+    elif num < RandNum:
         print("Больше")
         NumRound += 1
+    else:
+        print('error')
